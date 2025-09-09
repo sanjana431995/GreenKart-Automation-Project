@@ -1,192 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="1" ignored="0" total="6" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-07T14:18:50 IST" name="Suite" finished-at="2025-09-07T14:21:34 IST" duration-ms="164671">
+  <suite started-at="2025-09-10T00:45:40 IST" name="smoke" finished-at="2025-09-10T00:47:41 IST" duration-ms="121224">
     <groups>
       <group name="regression">
         <method signature="NegativeTest.wrongMsg()[pri:0, instance:GreenKart.Tests.NegativeTest@79c7532f]" name="wrongMsg" class="GreenKart.Tests.NegativeTest"/>
       </group> <!-- regression -->
     </groups>
-    <test started-at="2025-09-07T14:18:50 IST" name="Test1" finished-at="2025-09-07T14:20:12 IST" duration-ms="81946">
+    <test started-at="2025-09-10T00:45:40 IST" name="Test1" finished-at="2025-09-10T00:46:52 IST" duration-ms="72525">
       <class name="GreenKart.Tests.HomePageTest">
-        <test-method is-config="true" signature="trigger()[pri:0, instance:GreenKart.Tests.HomePageTest@1f6c9cd8]" started-at="2025-09-07T14:18:50 IST" name="trigger" finished-at="2025-09-07T14:19:00 IST" duration-ms="10210" status="PASS">
+        <test-method is-config="true" signature="trigger()[pri:0, instance:GreenKart.Tests.HomePageTest@1f6c9cd8]" started-at="2025-09-10T00:45:40 IST" name="trigger" finished-at="2025-09-10T00:45:45 IST" duration-ms="5744" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- trigger -->
-        <test-method signature="addVegToCart()[pri:0, instance:GreenKart.Tests.HomePageTest@1f6c9cd8]" started-at="2025-09-07T14:19:00 IST" name="addVegToCart" finished-at="2025-09-07T14:19:50 IST" duration-ms="49899" status="PASS">
+        <test-method signature="addVegToCart()[pri:0, instance:GreenKart.Tests.HomePageTest@1f6c9cd8]" started-at="2025-09-10T00:45:45 IST" name="addVegToCart" finished-at="2025-09-10T00:46:35 IST" duration-ms="49621" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addVegToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:GreenKart.Tests.HomePageTest@1f6c9cd8]" started-at="2025-09-07T14:19:50 IST" name="tearDown" finished-at="2025-09-07T14:19:51 IST" duration-ms="709" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GreenKart.Tests.HomePageTest@1f6c9cd8]" started-at="2025-09-10T00:46:35 IST" name="tearDown" finished-at="2025-09-10T00:46:36 IST" duration-ms="725" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="trigger()[pri:0, instance:GreenKart.Tests.HomePageTest@1f6c9cd8]" started-at="2025-09-07T14:19:51 IST" name="trigger" finished-at="2025-09-07T14:19:55 IST" duration-ms="4038" status="PASS">
+        <test-method is-config="true" signature="trigger()[pri:0, instance:GreenKart.Tests.HomePageTest@1f6c9cd8]" started-at="2025-09-10T00:46:36 IST" name="trigger" finished-at="2025-09-10T00:46:40 IST" duration-ms="4063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- trigger -->
-        <test-method signature="withValidCode()[pri:0, instance:GreenKart.Tests.HomePageTest@1f6c9cd8]" started-at="2025-09-07T14:19:55 IST" name="withValidCode" finished-at="2025-09-07T14:20:11 IST" duration-ms="16321" status="PASS">
+        <test-method signature="withValidCode()[pri:0, instance:GreenKart.Tests.HomePageTest@1f6c9cd8]" started-at="2025-09-10T00:46:40 IST" name="withValidCode" finished-at="2025-09-10T00:46:51 IST" duration-ms="11382" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- withValidCode -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:GreenKart.Tests.HomePageTest@1f6c9cd8]" started-at="2025-09-07T14:20:11 IST" name="tearDown" finished-at="2025-09-07T14:20:12 IST" duration-ms="677" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GreenKart.Tests.HomePageTest@1f6c9cd8]" started-at="2025-09-10T00:46:51 IST" name="tearDown" finished-at="2025-09-10T00:46:52 IST" duration-ms="909" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- GreenKart.Tests.HomePageTest -->
     </test> <!-- Test1 -->
-    <test started-at="2025-09-07T14:18:50 IST" name="Test" finished-at="2025-09-07T14:21:34 IST" duration-ms="164671">
+    <test started-at="2025-09-10T00:45:40 IST" name="Test" finished-at="2025-09-10T00:47:41 IST" duration-ms="121224">
       <class name="GreenKart.Tests.NegativeTest">
-        <test-method is-config="true" signature="trigger()[pri:0, instance:GreenKart.Tests.NegativeTest@79c7532f]" started-at="2025-09-07T14:18:50 IST" name="trigger" finished-at="2025-09-07T14:18:58 IST" duration-ms="8476" status="PASS">
+        <test-method is-config="true" signature="trigger()[pri:0, instance:GreenKart.Tests.NegativeTest@79c7532f]" started-at="2025-09-10T00:45:40 IST" name="trigger" finished-at="2025-09-10T00:45:47 IST" duration-ms="7383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- trigger -->
-        <test-method signature="getMessageOfTerms()[pri:0, instance:GreenKart.Tests.NegativeTest@79c7532f]" started-at="2025-09-07T14:18:58 IST" name="getMessageOfTerms" finished-at="2025-09-07T14:19:48 IST" duration-ms="50086" status="PASS">
+        <test-method signature="getMessageOfTerms()[pri:0, instance:GreenKart.Tests.NegativeTest@79c7532f]" started-at="2025-09-10T00:45:47 IST" name="getMessageOfTerms" finished-at="2025-09-10T00:46:33 IST" duration-ms="45644" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMessageOfTerms -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:GreenKart.Tests.NegativeTest@79c7532f]" started-at="2025-09-07T14:19:48 IST" name="tearDown" finished-at="2025-09-07T14:19:51 IST" duration-ms="2138" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GreenKart.Tests.NegativeTest@79c7532f]" started-at="2025-09-10T00:46:33 IST" name="tearDown" finished-at="2025-09-10T00:46:34 IST" duration-ms="1292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="trigger()[pri:0, instance:GreenKart.Tests.NegativeTest@79c7532f]" started-at="2025-09-07T14:19:51 IST" name="trigger" finished-at="2025-09-07T14:20:00 IST" duration-ms="9117" status="PASS">
+        <test-method is-config="true" signature="trigger()[pri:0, instance:GreenKart.Tests.NegativeTest@79c7532f]" started-at="2025-09-10T00:46:34 IST" name="trigger" finished-at="2025-09-10T00:46:38 IST" duration-ms="3927" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- trigger -->
-        <test-method retried="true" signature="withInvalidCode()[pri:0, instance:GreenKart.Tests.NegativeTest@79c7532f]" started-at="2025-09-07T14:20:00 IST" name="withInvalidCode" finished-at="2025-09-07T14:20:11 IST" duration-ms="11448" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Invalid code12 ..!] but found [Invalid code ..!]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Invalid code12 ..!] but found [Invalid code ..!]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at GreenKart.Tests.NegativeTest.withInvalidCode(NegativeTest.java:29)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="withInvalidCode()[pri:0, instance:GreenKart.Tests.NegativeTest@79c7532f]" started-at="2025-09-10T00:46:38 IST" name="withInvalidCode" finished-at="2025-09-10T00:46:50 IST" duration-ms="11648" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- withInvalidCode -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:GreenKart.Tests.NegativeTest@79c7532f]" started-at="2025-09-07T14:20:11 IST" name="tearDown" finished-at="2025-09-07T14:20:12 IST" duration-ms="386" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GreenKart.Tests.NegativeTest@79c7532f]" started-at="2025-09-10T00:46:50 IST" name="tearDown" finished-at="2025-09-10T00:46:51 IST" duration-ms="1003" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="trigger()[pri:0, instance:GreenKart.Tests.NegativeTest@79c7532f]" started-at="2025-09-07T14:20:12 IST" name="trigger" finished-at="2025-09-07T14:20:21 IST" duration-ms="9753" status="PASS">
+        <test-method is-config="true" signature="trigger()[pri:0, instance:GreenKart.Tests.NegativeTest@79c7532f]" started-at="2025-09-10T00:46:51 IST" name="trigger" finished-at="2025-09-10T00:46:54 IST" duration-ms="3354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- trigger -->
-        <test-method signature="withInvalidCode()[pri:0, instance:GreenKart.Tests.NegativeTest@79c7532f]" started-at="2025-09-07T14:20:21 IST" name="withInvalidCode" finished-at="2025-09-07T14:20:29 IST" duration-ms="7994" status="FAIL">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
-            <message>
-              <![CDATA[stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.155)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [02cb3da9ab14411b218065863517d1e3, isElementDisplayed {id=f.A485D155E9A30EAD1DB24DBCBF2F323B.d.A45EE10D0F2CCBE7559FF5C495706E72.e.138}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\sanja\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62764/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (02cb3da9ab14411b218065863517d1e3)] -> xpath: //p[@class='product-name']]
-Session ID: 02cb3da9ab14411b218065863517d1e3]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
-  (Session info: chrome=139.0.7258.155)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [02cb3da9ab14411b218065863517d1e3, isElementDisplayed {id=f.A485D155E9A30EAD1DB24DBCBF2F323B.d.A45EE10D0F2CCBE7559FF5C495706E72.e.138}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\sanja\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62764}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62764/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (02cb3da9ab14411b218065863517d1e3)] -> xpath: //p[@class='product-name']]
-Session ID: 02cb3da9ab14411b218065863517d1e3
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:282)
-at org.openqa.selenium.support.ui.ExpectedConditions$9.apply(ExpectedConditions.java:264)
-at org.openqa.selenium.support.ui.ExpectedConditions$9.apply(ExpectedConditions.java:260)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-at GreenKart.PageObjects.VegHomePage.proceedtocheckout(VegHomePage.java:90)
-at GreenKart.Tests.NegativeTest.withInvalidCode(NegativeTest.java:26)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- withInvalidCode -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:GreenKart.Tests.NegativeTest@79c7532f]" started-at="2025-09-07T14:20:30 IST" name="tearDown" finished-at="2025-09-07T14:20:54 IST" duration-ms="24495" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="trigger()[pri:0, instance:GreenKart.Tests.NegativeTest@79c7532f]" started-at="2025-09-07T14:20:54 IST" name="trigger" finished-at="2025-09-07T14:21:00 IST" duration-ms="5512" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- trigger -->
-        <test-method signature="wrongMsg()[pri:0, instance:GreenKart.Tests.NegativeTest@79c7532f]" started-at="2025-09-07T14:21:00 IST" name="wrongMsg" finished-at="2025-09-07T14:21:33 IST" duration-ms="33575" status="PASS">
+        <test-method signature="wrongMsg()[pri:0, instance:GreenKart.Tests.NegativeTest@79c7532f]" started-at="2025-09-10T00:46:54 IST" name="wrongMsg" finished-at="2025-09-10T00:47:40 IST" duration-ms="45815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wrongMsg -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:GreenKart.Tests.NegativeTest@79c7532f]" started-at="2025-09-07T14:21:33 IST" name="tearDown" finished-at="2025-09-07T14:21:34 IST" duration-ms="866" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GreenKart.Tests.NegativeTest@79c7532f]" started-at="2025-09-10T00:47:40 IST" name="tearDown" finished-at="2025-09-10T00:47:41 IST" duration-ms="893" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- GreenKart.Tests.NegativeTest -->
     </test> <!-- Test -->
-  </suite> <!-- Suite -->
+  </suite> <!-- smoke -->
 </testng-results>

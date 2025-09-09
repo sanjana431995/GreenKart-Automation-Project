@@ -99,8 +99,9 @@ public class CartPage extends Utils {
 		return promoInfo.getText();
 		
 	}
-
-
+	
+	
+	
 	
 
 }
